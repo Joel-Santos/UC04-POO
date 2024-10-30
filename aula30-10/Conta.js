@@ -1,29 +1,29 @@
-class ContaBancaria {
-  #saldo; // Propriedade privada
+class Conta {
+    #saldo;
 
-  constructor(saldoInicial) {
-    this.#saldo = saldoInicial;
-  }
-
-  depositar(valor) {
-    if (valor > 0) {
-      this.#saldo += valor;
+    constructor(saldoInicial) {
+        this.#saldo = saldoInicial;
+        Object.freeze(this)
     }
-  }
-
-  sacar(valor) {
-    if (valor > 0 && valor <= this.#saldo) {
-      this.#saldo -= valor;
+    depositar(valor) {
+        if (valor > 0) {
+            this.#saldo += valor;
+        }
     }
-  }
-
-  getSaldo() {
-    return this.#saldo;
-  }
+    sacar(valor) {
+        if (valor > 0 && valor <= this.#saldo) {
+            this.#saldo -= valor;
+        }
+    }
+    get getSaldo() {
+        return this.#saldo;
+    }
 }
+const c1 = new Conta(500);
+c1.depositar(500);
+console.log(c1.getSaldo);
+c1.sacar(100)
+console.log(c1.getSaldo);
 
-const conta = new ContaBancaria(1000);
-conta.depositar(500);
-console.log(conta.getSaldo()); // 1500
-conta.sacar(200);
-console.log(conta.saldo); // undefined
+// c1.saldo = 50000
+// console.log(c1.saldo);
