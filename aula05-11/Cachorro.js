@@ -2,13 +2,12 @@ const {Animal} = require('./Animal');
 
 class Cachorro extends Animal{
     #raca
-    constructor(nome, idade, pelo, raca){
-        super(nome, idade, pelo)
+    constructor(nome,raca){
+        super(nome) // NESSA LINHA ESTOU ACIONANDO O MÉTODO CONSTRUTOR DA MINHA CLASSE PAI
         this.#raca = raca;
     }
-
-    emitirSom(){
-        console.log(`${this.getNome} Faz au au!`)
+    emitirSom(){// novo comportamento de cachoro
+        console.log(`Meu nome é ${this.getNome}, sou da Raça ${this.#raca} e emito um som au au!`);
     }
 }
 module.exports = {Cachorro}
