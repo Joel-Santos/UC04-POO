@@ -7,11 +7,11 @@ class TarefasPessoais extends Tarefa{
     constructor(descricao, prioridade, data){
         super(descricao);
         this.#prioridade = prioridade;
-        this.data = data;
+        this.#data = data;
     }
 
     get getPrioridade(){
-        this.#prioridade;
+       return this.#prioridade;
     }
     set setPrioridade(prioridade){
         this.#prioridade = prioridade;
@@ -25,7 +25,7 @@ class TarefasPessoais extends Tarefa{
     }
     getInfo(){
         console.log('=== Tarefas Pessoais ===')
-        console.log(`Descrição: ${this.getDescricao} - Data: ${this.getData} - Prioridade: ${this.getPrioridade} Status ${this.getStatus}`);
+        console.log(`Descrição: ${this.getDescricao} - Data: ${this.getData} - Prioridade: ${this.getPrioridade} - Status: ${this.getStatus}`);
     }
 
 
