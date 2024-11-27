@@ -1,26 +1,21 @@
-Claro! Abaixo está o conteúdo completo para o arquivo `README.md` que explica o conceito de herança em Programação Orientada a Objetos (POO) com exemplos em JavaScript. Este README inclui instruções detalhadas para configurar o projeto, implementar as classes, e realizar uma atividade prática para fixação.
-
----
-
-```markdown
 # Herança em Programação Orientada a Objetos com JavaScript
 
 Este projeto tem como objetivo ensinar o conceito de **herança** em Programação Orientada a Objetos (POO) utilizando JavaScript. Serão apresentados exemplos práticos e atividades para consolidar o aprendizado sobre como reutilizar e estender funcionalidades através da herança.
 
 ## Índice
 
-1. [O que é Herança?](#o-que-é-herança)
-2. [Estrutura do Projeto](#estrutura-do-projeto)
-3. [Implementação das Classes](#implementação-das-classes)
-    - [Classe Base: `Pessoa`](#classe-base-pessoa)
-    - [Subclasse: `Aluno`](#subclasse-aluno)
-    - [Subclasse: `Professor`](#subclasse-professor)
-4. [Exemplo de Uso](#exemplo-de-uso)
-5. [Polimorfismo](#polimorfismo)
-6. [Atividades de Fixação](#atividades-de-fixação)
-    - [Atividade 1: Classes `Veiculo` e `Carro`](#atividade-1-classes-veiculo-e-carro)
-    - [Atividade 2: Sistema de Usuários com Diferentes Níveis de Acesso](#atividade-2-sistema-de-usuários-com-diferentes-níveis-de-acesso)
-7. [Conclusão](#conclusão)
+1. [O que é Herança?](##o-que-é-herança)
+2. [Estrutura do Projeto](##estrutura-do-projeto)
+3. [Implementação das Classes](##implementação-das-classes)
+    - [Classe Base: `Pessoa`](##classe-base-pessoa)
+    - [Subclasse: `Aluno`](##subclasse-aluno)
+    - [Subclasse: `Professor`](##subclasse-professor)
+4. [Exemplo de Uso](##exemplo-de-uso)
+5. [Polimorfismo](##polimorfismo)
+6. [Atividades de Fixação](##atividades-de-fixação)
+    - [Atividade 1: Classes `Veiculo` e `Carro`](##atividade-1-classes-veiculo-e-carro)
+    - [Atividade 2: Sistema de Usuários com Diferentes Níveis de Acesso](##atividade-2-sistema-de-usuários-com-diferentes-níveis-de-acesso)
+7. [Conclusão](##conclusão)
 
 ## O que é Herança?
 
@@ -524,5 +519,5 @@ Esperamos que este guia ajude a entender e aplicar o conceito de herança em seu
     - Siga as instruções das atividades 1 e 2 para praticar a criação de classes com herança e polimorfismo.
     - Teste os códigos e explore diferentes cenários para fortalecer o entendimento.
 
----
+
 
