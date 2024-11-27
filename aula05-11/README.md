@@ -4,18 +4,18 @@ Este projeto tem como objetivo ensinar o conceito de **herança** em Programaç�
 
 ## Índice
 
-1. [O que é Herança?](##o-que-é-herança)
-2. [Estrutura do Projeto](##estrutura-do-projeto)
-3. [Implementação das Classes](##implementação-das-classes)
-    - [Classe Base: `Pessoa`](##classe-base-pessoa)
-    - [Subclasse: `Aluno`](##subclasse-aluno)
-    - [Subclasse: `Professor`](##subclasse-professor)
-4. [Exemplo de Uso](##exemplo-de-uso)
-5. [Polimorfismo](##polimorfismo)
-6. [Atividades de Fixação](##atividades-de-fixação)
-    - [Atividade 1: Classes `Veiculo` e `Carro`](##atividade-1-classes-veiculo-e-carro)
-    - [Atividade 2: Sistema de Usuários com Diferentes Níveis de Acesso](##atividade-2-sistema-de-usuários-com-diferentes-níveis-de-acesso)
-7. [Conclusão](##conclusão)
+1. [O que é Herança?](#o-que-é-herança)
+2. [Estrutura do Projeto](#estrutura-do-projeto)
+3. [Implementação das Classes](#implementação-das-classes)
+    - [Classe Base: `Pessoa`](#classe-base-pessoa)
+    - [Subclasse: `Aluno`](#subclasse-aluno)
+    - [Subclasse: `Professor`](#subclasse-professor)
+4. [Exemplo de Uso](#exemplo-de-uso)
+5. [Polimorfismo](#polimorfismo)
+6. [Atividades de Fixação](#atividades-de-fixação)
+    - [Atividade 1: Classes `Veiculo` e `Carro`](#atividade-1-classes-veiculo-e-carro)
+    - [Atividade 2: Sistema de Usuários com Diferentes Níveis de Acesso](#atividade-2-sistema-de-usuários-com-diferentes-níveis-de-acesso)
+7. [Conclusão](#conclusão)
 
 ## O que é Herança?
 
