@@ -484,40 +484,6 @@ A herança é um conceito fundamental na Programação Orientada a Objetos que p
 
 ---
 
-Esperamos que este guia ajude a entender e aplicar o conceito de herança em seus projetos de Programação Orientada a Objetos com JavaScript. Bons estudos e codificação!
-
-```
-
----
-
-### Como Utilizar este `README.md`
-
-1. **Criar a Estrutura do Projeto**:
-    - Abra o **Prompt de Comando** ou **PowerShell** no Windows.
-    - Navegue até o diretório onde deseja criar o projeto.
-    - Execute os seguintes comandos:
-
-        ```cmd
-        mkdir heranca-poo
-        cd heranca-poo
-        npm init -y
-        ```
-
-2. **Criar os Arquivos Necessários**:
-    - Utilize um editor de texto (como **Visual Studio Code**, **Notepad++** ou **Sublime Text**) para criar os arquivos listados na estrutura do projeto (`Pessoa.js`, `Aluno.js`, `Professor.js`, etc.) e copie o código correspondente em cada arquivo.
-
-3. **Executar o Código**:
-    - No terminal, dentro da pasta `heranca-poo`, execute:
-
-        ```cmd
-        node index.js
-        ```
-
-    - Observe a saída no console conforme os exemplos apresentados.
-
-4. **Realizar as Atividades de Fixação**:
-    - Siga as instruções das atividades 1 e 2 para praticar a criação de classes com herança e polimorfismo.
-    - Teste os códigos e explore diferentes cenários para fortalecer o entendimento.
 
 
 
